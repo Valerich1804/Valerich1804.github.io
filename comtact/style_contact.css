@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.conteiner{
+	width: 1366px;
+	margin: 0 auto;
+}
+.header{
+	background-image: url(../img/hero-back.jpg);
+	height: 360px;
+}
+.header .logo{
+	margin-left: 98px;
+	margin-top: 63px;
+}
+.menu{
+	float: right;
+	margin-right: 211px;
+	margin-top: 50px;
+}
+.menu li{
+	float: left;
+	list-style-type: none;
+}
+.menu li a{
+	color:  #8c8c8c;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 48px;
+	text-align: right;
+	text-decoration: none;
+	display: block;
+	padding: 0 20px;
+}
+
+.menu li a:hover{
+	color:  #212121;
+	border-bottom: 1px solid black;
+}
+.text h1{
+	color:  #212121;
+	font-size: 62px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 100;
+	line-height: 72px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin-top: 171px;
+	margin-left: 98px;
+}
+.items {
+	float: left;
+	margin-top: 71px;
+	margin-left: 58px;
+	text-align: center;
+	width: 370px;
+	height: 370px;
+	border-width: 1px;
+	border-color:  #9c9c9c;
+	border-style: solid;
+	background-color:  #ffffff;
+	opacity: 0.9;
+}
+.desc{
+	margin-top: 43px;
+	margin-left: 35px;
+	width: 300px;
+	height: 290px;
+	text-align: center;
+}
+.map a {
+	width: 38px;
+	height: 48px;
+
+}
+
+.desc h3{
+	color:  #212121;
+	font-size: 21.91px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: center;
+	transform: scaleX(1.0041);
+	margin-top: 10px;
+
+}
+
+.desc p{
+	color:  #6c6c6c;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20.082px;	
+	text-align: center;
+}
+.desc .p1 {
+	color:  #212121;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20.082px;
+	text-align: center;
+}
+.desc .p2{
+	color:  #6c6c6c;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20.082px;
+	text-align: center;
+	transform: scaleX(1.0041)
+}
+.footer {
+	height: 384px;
+	background-color: #f7f7f7;
+	overflow: hidden;
+	padding: 120px 97px 30px;
+}
+
+.contact {
+	width: 221px;
+	margin-right: 80px;
+	float: left;
+}
+
+.contact h3 {
+	color:  #6c6c6c;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.contact a {
+	display: block;
+	margin-top: 24px;
+	text-decoration: none;
+	color:  #212121;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+.info {
+	width: 422px;
+	margin-right: 78px;
+	float: left;
+}
+
+.info h3 {
+	color:  #6c6c6c;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.block1 {
+	margin-top: 24px;
+	margin-right: 103px;
+	width: 132px;
+	float: left;
+}
+
+.block2 {
+	margin-top: 24px;
+	width: 187px;
+	float: right;
+}
+
+.info a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color:  #212121;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 26px;
+}
+
+.subscribe {
+	width: 370px;
+	float: left;
+}
+
+.subscribe h3 {
+	color:  #6c6c6c;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.subscribe p {
+	margin-top: 24px;
+	color:  #212121;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+input[type="email"]::-ms-input-placeholder {
+	font-family: Montserrat;
+	color:  #6c6c6c;
+	font-size: 14px;
+	font-weight: 300;
+}
+input[type="email"]::-moz-input-placeholder {
+	font-family: Montserrat;
+	color:  #6c6c6c;
+	font-size: 14px;
+	font-weight: 300;
+}
+input[type="email"]::-webkit-input-placeholder {
+	font-family: Montserrat;
+	color:  #6c6c6c;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.email {
+	margin-top: 26px;
+	border-width: 1px;
+	border-color:  #d9dee1;
+	border-style: solid;
+	background-color:  #ffffff;
+	width: 368px;
+	height: 46px;
+}
+
+input[type="email"] {
+	display: block;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    width: 301px;
+    height: 46px;
+    float: left;
+    padding-left: 19px;
+	color:  #6c6c6c;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+input[type="submit"] {
+    width: 48px;
+    height: 48px;
+    border: none;
+    background: url(../img/submit.png) no-repeat 12px 15px;
+}
+
+input[type="submit"]:hover {
+	cursor: pointer;
+}
+
+.links {
+	clear: both;
+	margin-top: 336px;
+}
+
+.rights {
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	color:  #6c6c6c;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 26px;
+	margin-right: 158px;
+	float: left;
+}
+
+.social {
+	width: 129px;
+	height: 28px;
+	float: left;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 172px;
+}
+
+.policy {
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	color:  #6c6c6c;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 26px;
+}
+.footer{
+	
+	max-width: 1366px;
+	float: left;
+	margin-top: 50px;
+	}
